@@ -1,0 +1,31 @@
+{
+  "name": "tree-shaking-test",
+  "sideEffects": false,
+  "scripts": {
+    "build": "yarn run clean && webpack",
+    "build-rollup": "yarn run clean && rollup -c",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.1",
+    "awesome-typescript-loader": "5.2.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.4",
+    "csv-loader": "^2.1.1",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "style-loader": "^0.18.2",
+    "typescript": "^3.2.2",
+    "webpack": "^4.3.0",
+    "webpack-cli": "^3.1.2",
+    "xml-loader": "^1.2.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.18.1"
+  },
+  "dependencies": {
+    "@notes/webintegrations-common": "0.0.71",
+    "lodash-es": " ^4.17.11"
+  }
+}

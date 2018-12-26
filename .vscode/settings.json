@@ -1,0 +1,17 @@
+{
+  // Insert spaces when pressing Tab!
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,  
+  // Whether to sort all imports whenever saving a Typescript file. Doesn't support placing comments correctly, hit F10 to manually sort.
+  "typescript.extension.sortImports.sortOnSave": false,
+  "typescript.extension.sortImports.omitSemicolon": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "es5",
+  "prettier.singleQuote": true, 
+  // Defines space handling after opening and before closing JSX expression braces.
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces`
+  // will be detected based on the file contents. Set to false to keep
+  // the values you've explicitly set, above.
+  "editor.detectIndentation": false
+ }

@@ -1,0 +1,36 @@
+node_modules
+
+# Reports
+bdd/reports
+coverage
+
+# Distribution
+dist
+lib
+lib-amd
+lib-commonjs
+lib-es2015
+
+# Caches
+.awcache
+.cache
+.rpt2_cache
+
+# Logs
+*.log
+npminstall-log.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Visual Studio Temp Project
+.vs/
+bin/
+*.suo
+*.csproj.user
+*.userosscache
+*.sublime-project
+*.sublime-workspace
+.idea
+/.settings/
+OneDrive.sln.ide/*

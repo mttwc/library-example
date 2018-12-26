@@ -1,0 +1,31 @@
+{
+  "name": "library-example",
+  "version": "0.0.1",
+  "files": [
+    "dist/**/*",
+    "lib/**/*",
+    "lib-amd/**/*",
+    "lib-commonjs/**/*"
+  ],
+  "description": "Example library to standardize exporting different module types, with a sample app demonstrating tree-shaking and dead code removal",
+  "license": "MIT",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "sideEffects": [
+  ],
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "yarn run clean && node ./js-scripts/build.js",
+    "build:prod": "yarn run clean && yarn run build --production",
+    "clean": "node ./js-scripts/clean.js"
+  },
+  "devDependencies": {
+    "@types/jest": "23.0.0",
+    "@types/webpack-env": "1.13.0",
+    "chalk": "^2.4.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}

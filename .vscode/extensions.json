@@ -1,0 +1,15 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846 for the documentation about the extensions.json format.
+  // These workspace extension recommendations are used with intellisense for autocomplete in various extension install UX.
+  // Less common discovery:
+  // - They will also show up in the extensions pane under the "Show Workspace Recommended Extensions" menu option.
+  "recommendations": [
+    // Extension identifier format: "<publisher>.<name>". Example: ["vscode.csharp"]
+    "eg2.tslint", // integrates the tslint linter for the TypeScript language into VS Code.
+    "msjsdiag.debugger-for-chrome", // run code in chrome that hits breakpoints in VSCode
+    "CoenraadS.bracket-pair-colorizer", // help identify mismatched brackets ({[]})]
+    "miclo.sort-typescript-imports", // sort imports with the press of 'F10'
+    "rebornix.project-snippets", // per-project snippets (stored in .vscode/snippets folder)
+    "esbenp.prettier-vscode"
+  ]
+}
